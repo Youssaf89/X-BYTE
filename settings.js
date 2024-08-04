@@ -20,7 +20,7 @@ function convertToBool(text, fault = 'true') {
 
 global.thumb = fs.readFileSync('./lib/bugs/XByte.png') //Don't change
 //////////////////////////////////////////////////////////
-const BOTNAME = 'X - B Y T E'; //BOT name
+const BOTNAME = 'N1z4r - !'; //BOT name
 //////////////////////////////////////////////////////////
 const FOOTERNAME = '*Powered by TalkDrove*'; //Footer text
 
@@ -37,7 +37,7 @@ const FOOTERNAME = '*Powered by TalkDrove*'; //Footer text
 //----------------OWNER NUMBER------------------------------//
 //////////////////////////////////////////////////////////////////
 
-global.owner = process.env.OWNER_NUMBER  || '923072380380' ;  //put your number without +
+global.owner = process.env.OWNER_NUMBER  || '212691649677' ;  //put your number without +
 
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
@@ -104,7 +104,7 @@ MODERATORS : process.env.MODERATORS === undefined ? "923072380380" : process.env
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE, //Maximum size that bot can download a file   
 //////////////////////////////////////////////////////////
 
-OWNER_NAME: process.env.OWNER_NAME || 'Hamza' , //Your name
+OWNER_NAME: process.env.OWNER_NAME || 'N1z4r' , //Your name
 //////////////////////////////////////////////////////////
 
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9" : "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9' : process.env.POSTGRESQL_URL,
@@ -131,7 +131,7 @@ AUTO_READ:  process.env.AUTO_READ  || false  , //true or false
 AUTO_BIO:  process.env.AUTO_BIO  || false  ,        //true or false
 //////////////////////////////////////////////////////////
 
-ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,  //true or false
+ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || true  ,  //true or false
 //////////////////////////////////////////////////////////
 
 HEROKU_API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,    
@@ -149,7 +149,7 @@ BANNED_USER: process.env.BANNED_USER === undefined ? '' : process.env.BANNED_USE
 AI_MODE: process.env.AI_MODE === undefined ? 'true' : process.env.AI_MODE, //true or false
 //////////////////////////////////////////////////////////
 
-ANTI_LINK: process.env.ANTI_LINK || false  , //true or false
+ANTI_LINK: process.env.ANTI_LINK || true  , //true or false
 //////////////////////////////////////////////////////////
 
 BOT_DETECT: process.env.BOT_DETECT === undefined ? 'false' : process.env.BOT_DETECT,  //true or false    
@@ -164,7 +164,7 @@ ANTI_CALL: process.env.ANTI_CALL || false  , //true or false
 ALIVE: process.env.ALIVE || `default`,     
 //////////////////////////////////////////////////////////
 
-AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,     //true or false
+AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,     //true or false
 //////////////////////////////////////////////////////////
 
 AUTO_STICKER: process.env.AUTO_STICKER || false  , //true or false
